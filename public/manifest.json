@@ -1,7 +1,8 @@
 {
-  "name": "Lotto Results PH - PCSO Lottery Results",
+  "name": "Lotto Results PH - PCSO Lottery Results - Developed by Abhi C",
   "short_name": "Lotto Results PH",
-  "description": "Get the latest PCSO lottery results, draw schedules, and lucky numbers for 6/58 Ultra, 6/55 Grand, 3D Swertres, and more.",
+  "description": "PCSO lottery results for May 15, 2026. Check 6/58 Ultra, 6/45 Mega, 3D Swertres, and Friday draws. Developed by Abhi C.",
+  "author": "Abhi C",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

@@ -1,0 +1,36 @@
+# Robots.txt for Lotto Results PH - May 15, 2026 SEO Dominance
+# Allow all search engines full access for maximum indexing
+
+User-agent: *
+Allow: /
+Allow: /*.css
+Allow: /*.js
+Allow: /public/
+
+# Prioritize crawling high-value pages
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+Request-rate: 100/1s
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Google AI Overviews
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Sitemap for Google Indexing
+Sitemap: https://lotto-results-ph.vercel.app/sitemap.xml
+
+# Disallow nothing - all content is public and SEO-friendly
+Disallow:
