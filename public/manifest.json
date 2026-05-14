@@ -1,0 +1,40 @@
+{
+  "name": "Lotto Results PH - PCSO Lottery Results",
+  "short_name": "Lotto Results PH",
+  "description": "Get the latest PCSO lottery results, draw schedules, and lucky numbers for 6/58 Ultra, 6/55 Grand, 3D Swertres, and more.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#111415",
+  "background_color": "#111415",
+  "categories": ["utilities", "games"],
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}

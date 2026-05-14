@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offline - Lotto Results PH</title>
+    <style>
+      :root {
+        --background: #111415;
+        --foreground: #e1e3e4;
+        --card: #1a1d1f;
+        --secondary: #e9c349;
+        --accent: #e7c35b;
+        --muted-foreground: #8f9195;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        background: var(--background);
+        color: var(--foreground);
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .icon {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+        color: var(--secondary);
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+      }
+
+      p {
+        color: var(--muted-foreground);
+        margin-bottom: 2rem;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: var(--accent);
+        color: var(--background);
+        text-decoration: none;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        transition: opacity 0.2s;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+      }
+
+      .button:hover {
+        opacity: 0.9;
+      }
+
+      .info {
+        background: var(--card);
+        border: 1px solid rgba(161, 198, 240, 0.2);
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin-top: 2rem;
+        text-align: left;
+      }
+
+      .info h2 {
+        color: var(--secondary);
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+      }
+
+      .info ul {
+        list-style: none;
+        color: var(--muted-foreground);
+        font-size: 0.95rem;
+      }
+
+      .info li {
+        margin-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        position: relative;
+      }
+
+      .info li:before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: var(--accent);
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="icon">📱</div>
+      <h1>You&apos;re Offline</h1>
+      <p>It looks like you don&apos;t have an internet connection right now.</p>
+      <button class="button" onclick="window.location.href='/'">Try Again</button>
+
+      <div class="info">
+        <h2>Cached Content Available</h2>
+        <ul>
+          <li>View previously loaded lottery results</li>
+          <li>Check draw schedules you&apos;ve visited</li>
+          <li>Access your lucky number generations</li>
+          <li>Browse jackpot information</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
